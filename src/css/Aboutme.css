@@ -10,7 +10,7 @@
     margin-top: 1px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    
+
 }
 
 
@@ -32,6 +32,8 @@
     color: #fbf9ff;
     margin: 10px;
     font-size: 20px;
+    text-align: center;
+    height: auto;
     text-align: center;
 }
 

@@ -11,12 +11,23 @@ function Aboutme(){
                 <div className="container-about">
                 <img src={photo} className="hamster"></img>
                    <div className="infor">
-                        <p>I am a curious and creative person, determined to be in constant learning. I like web design, technology and marketing.  
-                        I am currently a student of a technology specialized in web design, but in my spare time I study UX / UI design.
+                        <p>Desarrolladora Full Stack en continua
+formación, entusiasta de la tecnología,
+autodidacta y comprometida, Cuento con
+conocimientos en HTML5-CSS3 Boostrap5-
+
+JS (Vanilla, Jquery)- React JS, NodeJs-
+Express- MongoDB- CMS- SQL Scrum-
+Testing funcional, manejo de CMS Wordpress
+
+y Drupal.
+Con capacidad de liderazgo, atención al
+cliente, trabajo en equipos, determinación,
+toma de decisiones, fluidez verbal
+desenvolviéndome en variados roles.
+Interesada en mi crecimiento profesional.
                         </p>
-                        <p>
-                        I have had the opportunity to study for more than a year different tools such as figma, Html, Css, Javascript, Python, Java, React, Adobe Illustrator, Photoshop, among others.
-                        </p>
+                        
                     </div>
                 </div>
             </header>

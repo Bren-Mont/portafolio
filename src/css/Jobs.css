@@ -69,25 +69,17 @@
 }
 
 .im2{
-  background-image:url(../img/ghibli.png);
+  background-image:url(../img/laboratorio.webp);
 }
-
 .im3{
-background-image: url(../img/coraje.png);
-
+  background-image:url(../img/banca.jpeg);
 }
-
 .im4{
-background-image: url(../img/huellitas.png);
+  background-image:url(../img/logo-dh.svg);
+  display: flex;
+  justify-content: center;
 }
 
-.im5{
-background-image:url(../img/forja.png);
-}
-
-.im6{
-background-image:url(../img/animalandia.png);
-}
 
 .property-card
 {

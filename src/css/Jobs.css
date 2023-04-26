@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.container-jobs{
+  font-family: 'Poppins', sans-serif;
+    margin:5px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.item2{
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 'Poppins';
+}
+
+.section1{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.section2{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.section3{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.section4{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.section5{
+  grid-column: 1/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.section6{
+  grid-column: 1/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.im1{
+  background-image:url(../img/Start-up-drama.jpeg);
+}
+
+.im2{
+  background-image:url(../img/ghibli.png);
+}
+
+.im3{
+background-image: url(../img/coraje.png);
+
+}
+
+.im4{
+background-image: url(../img/huellitas.png);
+}
+
+.im5{
+background-image:url(../img/forja.png);
+}
+
+.im6{
+background-image:url(../img/animalandia.png);
+}
+
+.property-card
+{
+  height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+
+}
+
+.property-image 
+{
+  height:18em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+
+.property-description
+{
+  background-color: #14426086;
+  backdrop-filter: blur(5px);
+  color: white;
+  height:0px;
+  width:14em;
+  position:absolute;
+  bottom: -20px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.9s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  text-align:center;
+}
+
+
+
+.property-card:hover .property-description
+{
+  height:14em;
+
+}
+.property-card:hover .property-image
+{
+  height:18em;
+}
+
+.fondo1{
+  background:rgba(201, 172, 172, 0.363) url(../img/fondo3.jpg);
+  background-blend-mode: darken; 
+  background-size:cover;
+  background-size:160% 100%;
+  min-height: 100vh;
+
+}
+
+.fondo0{
+  background:rgba(201, 172, 172, 0.363) url(../img/fondo1.jpg);
+  background-blend-mode: darken; 
+  background-size:300% 100%;
+  background-size:cover;
+  min-height: 100vh;
+}
+
+.fondo3{
+  background:rgba(201, 172, 172, 0.363) url(../img/fondo4.jpg);
+  background-blend-mode: darken;
+  background-size:100% 100%; 
+  background-size:cover;
+
+  min-height: 100vh;
+}
+
+.fondo4{
+  background:rgba(201, 172, 172, 0.363) url(../img/Group\ 145.png);
+  background-blend-mode: darken; 
+  background-size:cover;
+  min-height: 100vh;
+}
+.fondo5{
+  background:rgba(201, 172, 172, 0.363) url(../img/Group\ 147.png);
+  background-blend-mode: darken; 
+  background-size:100% 100%;
+  background-size:cover;
+  min-height: 100vh;
+}
+
+.fondo6{
+  background:rgba(201, 172, 172, 0.363) url(../img/fondo4.jpg);
+  background-blend-mode: darken; 
+  background-size:180% 150%;
+  min-height: 100vh;
+}
+
+.container-jobs2{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title-jobs2{
+  grid-column: 1/4;
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to right,white,rgb(197, 50, 185),rgb(0, 204, 255));
+  background-size:200% 300%;
+  animation: fmovimiento 3s linear infinite alternate;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
+.info-container-job2{
+  grid-column: 1/4;
+  color: white;
+  margin: 40px;
+  font-size: 20px;
+  background:linear-gradient (to top,rgba(211, 29, 165, 0.774), rgba(3, 3, 148, 0.671));
+  backdrop-filter: blur(15px);
+}
+
+.target-a{
+  color: white;
+  font-size: 20px;
+}
+
+.title-ghibli{
+  grid-column: 1/4;
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to right,rgb(46, 255, 133),rgb(112, 157, 255),rgb(248, 255, 143));
+  background-size:200% 300%;
+  animation: fmovimiento 2s linear infinite alternate;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
+
+.info-container-ghibli{
+  grid-column: 1/4;
+  color: white;
+  margin: 40px;
+  font-size: 20px;
+  background: linear-gradient(rgba(1, 46, 1, 0.5),rgba(0, 0, 255, 0.315));
+  background-size:200% 200%;
+  backdrop-filter: blur(6px);
+}
+
+.title-courage{
+  grid-column: 1/4;
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to right,rgb(255, 46, 203),rgb(247, 157, 157), rgb(197, 5, 188));
+  background-size:200% 300%;
+  animation: fmovimiento 2s linear infinite alternate;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
+.info-container-courage{
+  grid-column: 1/4;
+  color: white;
+  margin: 40px;
+  font-size: 20px;
+  background: linear-gradient(rgba(226, 45, 45, 0.5),rgba(255, 28, 244, 0.315));
+  background-size:200% 200%;
+  backdrop-filter: blur(6px);
+}
+
+.title-huellitas{
+  grid-column: 1/4;
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to right,rgb(1, 7, 80),rgb(26, 131, 163), rgb(110, 170, 238));
+  background-size:200% 300%;
+  animation: fmovimiento 3s linear infinite alternate;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
+.info-container-huellitas{
+  grid-column: 1/4;
+  color: white;
+  margin: 40px;
+  font-size: 20px;
+  background: linear-gradient(rgba(0, 25, 136, 0.5),rgba(108, 255, 255, 0.315));
+  background-size:200% 200%;
+  backdrop-filter: blur(6px);
+}
+
+.title-forja{
+  grid-column: 1/4;
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to right,rgb(241, 89, 0),rgb(75, 75, 75), rgb(211, 103, 3));
+  background-size:200% 300%;
+  animation: fmovimiento 3s linear infinite alternate;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
+
+.info-container-forja{
+  grid-column: 1/4;
+  color: white;
+  margin: 40px;
+  font-size: 20px;
+  background: linear-gradient(rgba(224, 110, 4, 0.5),rgba(147, 151, 151, 0.315));
+  background-size:200% 200%;
+  backdrop-filter: blur(6px);
+}
+
+.title-anima{
+  grid-column: 1/4;
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to right,rgb(185, 0, 241),rgb(194, 191, 191), rgb(100, 3, 211));
+  background-size:200% 300%;
+  animation: fmovimiento 3s linear infinite alternate;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
+.info-container-anima{
+  grid-column: 1/4;
+  color: white;
+  margin: 40px;
+  font-size: 20px;
+  background: linear-gradient(rgba(136, 4, 224, 0.5),rgba(71, 179, 230, 0.493));
+  background-size:200% 200%;
+  backdrop-filter: blur(6px);
+}
+
+
+@media screen and (min-width: 390px){
+
+  .container-jobs2{
+    margin-top: 50px;
+  }
+  
+  .title-jobs2{
+
+    font-size: 60px;
+  }
+  
+  .info-container-job2{
+    margin: 20px;
+    font-size: 30px;
+
+  }
+  
+  .target-a{
+    font-size: 25px;
+  }
+  
+}
+
+
+@media screen and (min-width: 414px){
+  .fondo6{
+    background-size:400% 150%;
+    min-height: 100vh;
+  }
+  .container-jobs2{
+    margin-top: 50px;
+  }
+  
+  .title-jobs2{
+
+    font-size: 60px;
+  }
+  
+  .info-container-job2{
+    margin: 20px;
+    font-size: 30px;
+
+  }
+  
+  .target-a{
+    font-size: 25px;
+  }
+  
+}
+
+@media screen and (min-width: 412px){
+
+  .container-jobs2{
+    margin-top: 50px;
+  }
+  
+  .title-jobs2{
+
+    font-size: 60px;
+  }
+  
+  .info-container-job2{
+    margin: 20px;
+    font-size: 30px;
+
+  }
+  
+  .target-a{
+    font-size: 25px;
+  }
+  
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+  .section1{
+    grid-column: 1/2;
+
+}
+
+.section2{
+    grid-column: 2/3;
+
+}
+
+.section3{
+    grid-column: 3/5;
+
+}
+
+.section4{
+    grid-column: 1/2;
+}
+
+.section5{
+  grid-column: 2/3;
+
+}
+.section6{
+  grid-column: 3/5;
+}
+.container-jobs{
+  margin-top: 100px;
+  grid-row-gap: 10px;
+}
+
+.property-card
+{
+  height:20em;
+  width:12em;
+
+}
+
+.property-image 
+{
+  height:20em;
+  width:12em;
+}
+
+
+.property-description
+{
+  width:12em;
+}
+
+
+
+.property-card:hover .property-description
+{
+  height:12em;
+
+}
+.property-card:hover .property-image
+{
+  height:20em;
+}
+
+.container-jobs2{
+  margin-top: 80px;
+}
+
+.title-jobs2{
+
+  font-size: 80px;
+}
+
+.info-container-job2{
+  margin: 40px;
+  font-size: 40px;
+
+}
+
+.target-a{
+  font-size: 25px;
+}
+
+.title-ghibli{
+  font-size: 80px;
+}
+
+
+.info-container-ghibli{
+
+  margin: 40px;
+  font-size: 40px;
+
+}
+.title-courage{
+  font-size: 80px;
+}
+
+.info-container-courage{
+  margin: 40px;
+  font-size: 40px;
+}
+
+.title-huellitas{
+  font-size: 80px;
+ 
+}
+
+.info-container-huellitas{
+  margin: 40px;
+  font-size: 40px;
+}
+
+.title-forja{
+  font-size: 80px;
+}
+
+
+.info-container-forja{
+  margin: 40px;
+  font-size: 40px;
+}
+
+.title-anima{
+  font-size: 80px;
+}
+
+.info-container-anima{
+  margin: 40px;
+  font-size: 40px;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+  .container-jobs{
+    margin-top: 100px;
+
+  }
+  
+  .property-card
+  {
+    height:20em;
+    width:20em;
+  
+  }
+  
+  .property-image 
+  {
+    height:20em;
+    width:20em;
+  }
+  
+  
+  .property-description
+  {
+    width:20em;
+  }
+  
+  
+  
+  .property-card:hover .property-description
+  {
+    height:12em;
+  
+  }
+  .property-card:hover .property-image
+  {
+    height:20em;
+  }
+  .fondo1{
+
+    background-size:100% 100%;
+  
+  }
+  .fondo6{
+
+    background-size:150% 100%;
+  }
+
+
+  .container-jobs2{
+    margin-top: 1px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+  }
+  
+  .title-jobs2{
+    grid-column: 1/6;
+    font-size: 70px;
+  }
+  
+  .info-container-job2{
+    grid-column: 2/5;
+    padding: 30px;
+    font-size: 25px;
+
+  }
+  
+  .target-a{
+    font-size: 25px;
+  }
+
+  .title-ghibli{
+    grid-column: 1/6;
+    font-size: 70px;
+  }
+  
+  
+  .info-container-ghibli{
+    grid-column: 2/5;
+    padding: 30px;
+    font-size: 25px;
+  }
+
+  .title-courage{
+    grid-column: 1/6;
+    font-size: 70px;
+  }
+  
+  .info-container-courage{
+    grid-column: 2/5;
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  
+  .title-huellitas{
+    grid-column: 1/6;
+    font-size: 70px;
+   
+  }
+  
+  .info-container-huellitas{
+    grid-column: 2/5;
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+  .title-forja{
+    grid-column: 1/6;
+    font-size: 70px;
+  }
+  
+  
+  .info-container-forja{
+    margin: 40px;
+    grid-column: 2/5;
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .title-anima{
+    grid-column: 1/6;
+    font-size: 70px;
+  }
+  
+  .info-container-anima{
+    margin: 40px;
+    grid-column: 2/5;
+    padding: 10px;
+    font-size: 25px;
+  }
+
+
+}
